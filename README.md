@@ -6,10 +6,10 @@ This is a simple web application that translates English sentences into Pig Lati
 
 The Pig Latin Translation Web Application is built using the following technologies:
 
-- **Python**:
-- **Flask**: 
-- **HTML**:
-- **CSS**:
+- **Python**
+- **Flask**
+- **HTML**
+- **CSS**
   
 The application takes advantage of these technologies to provide a user-friendly interface for translating English sentences into Pig Latin, enhancing user engagement and interaction.
 
