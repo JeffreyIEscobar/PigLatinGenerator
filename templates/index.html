@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Pig Latin Translator</title>
+</head>
+<body>
+    <h1>Pig Latin Translator</h1>
+    <form method="POST">
+        <label for="input_text">Enter a sentence:</label>
+        <input type="text" id="input_text" name="input_text" value="{{ input_text }}" required>
+        <button type="submit">Translate</button>
+    </form>
+    {% if pig_latin_text %}
+        <p class="result">Pig Latin translation: {{ pig_latin_text }}</p>
+    {% endif %}
+</body>
+</html>
