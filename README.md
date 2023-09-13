@@ -13,6 +13,10 @@ The Pig Latin Translation Web Application is built using the following technolog
   
 The application takes advantage of these technologies to provide a user-friendly interface for translating English sentences into Pig Latin, enhancing user engagement and interaction.
 
+## Contributing
+
+Contributions are welcome! If you'd like to enhance or customize this application, feel free to fork this repository and submit a pull request.
+
 ## Contact
 
 For questions or feedback, please contact Jeffrey I. Escobar via Jeffreyianescobar@gmail.com
